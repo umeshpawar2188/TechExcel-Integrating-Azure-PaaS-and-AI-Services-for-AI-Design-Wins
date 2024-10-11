@@ -50,6 +50,7 @@ namespace ContosoSuites.Functions
             if (documentsToVectorize.Count() == 0) return null;
 
             foreach (var request in documentsToVectorize)
+            
             {
                 try
                 {
